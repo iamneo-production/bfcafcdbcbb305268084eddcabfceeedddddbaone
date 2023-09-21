@@ -1,6 +1,7 @@
 <html>
     <head>
-      <link rel="stylesheet" 
+      <link rel="stylesheet" href="style.css">
+      <script src="app.js"></script>
     </head>
 <body>
   <div>
@@ -13,8 +14,10 @@
       <label> Height (in cm):</label> <br>
       <input type="text" id="height"> <br>
       <button id="submit" onclick=calculate() type="button">Calculate BMI</button>
-      <p id="ans" class="bgcolor">BMI: </p>
-      <p id="status" class="bgcolor">Weight Status: </p>
+      
+      <p id="ans" class="bgcolor"><label>BMI: </label></p>
+      <label>Weight Status: </label>
+      <p id="status" class="bgcolor"></p>
     </form>
   </div>
   </body>
