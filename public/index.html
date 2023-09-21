@@ -4,7 +4,7 @@
       <script src="app.js"></script>
     </head>
 <body>
-  <div>
+  <div class="container">
     <form >
       <h1>BMI Calculator</h1><br>
       <label>
@@ -14,10 +14,10 @@
       <label> Height (in cm):</label> <br>
       <input type="text" id="height"> <br>
       <button id="submit" onclick=calculate() type="button">Calculate BMI</button>
-      <label>BMI: </label>
-      <p id="ans" class="bgcolor"></p>
-      <label>Weight Status: </label>
-      <p id="status" class="bgcolor"></p>
+      
+      <p id="result" class="bgcolor"></p>
+     
+      <p id="weightStatus" class="bgcolor"></p>
     </form>
   </div>
   </body>
