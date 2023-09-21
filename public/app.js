@@ -11,7 +11,7 @@ function calculate()
     if(BMI>= 18.5 && BMI <=24.9)
     {
       
-      document.getElementById("weightStatus").innerText = "Status: Healthy Weight"
+      document.getElementById("weightStatus").innerText = "Weight Status: Healthy Weight"
       document.getElementsByClassName("bgcolor")[0].style.color  = "green";
       document.getElementsByClassName("bgcolor")[1].style.color  = "green";
     }
@@ -20,13 +20,13 @@ function calculate()
       
 
       if(BMI<18.5){
-        document.getElementById("weightStatus").innerText = "Status: Underweight"
+        document.getElementById("weightStatus").innerText = "Weight Status: Underweight"
       }
       if(BMI>=25.0 && BMI<=29.9){
-        document.getElementById("weightStatus").innerText = "Status: Overweight"
+        document.getElementById("weightStatus").innerText = "Weight Status: Overweight"
       }
       if(BMI>=30.0){
-        document.getElementById("weightStatus").innerText = "Status: Obesity"
+        document.getElementById("weightStatus").innerText = "Weight Status: Obesity"
       }
 
       document.getElementsByClassName("bgcolor")[0].style.color = "red";
